@@ -1,0 +1,181 @@
+body {
+    margin: 0 10%;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #ffffff;
+  }
+  
+.header p {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+  list-style-type: none;
+  padding-left: 0;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #32dd0c;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #ff0000;
+}
+
+.container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px 5%;
+  border: 3px solid #000000;
+}
+
+.subtitle {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  color: #000000;
+  text-align: left;
+}
+
+/* COLORS SECTION */
+
+.colorsBlock {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 0%;
+  justify-content: center;
+  align-items: center;
+}
+
+.colorDiv {
+  margin: 15px;
+  height: 100px;
+  width: 300px;
+}
+
+.colorDiv > p {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.Marsala {
+  background-color: #B7410E;
+  color: #ffffff;
+}
+
+.emeraldGreen {
+  background-color: #006747;
+  color: #ffffff;
+}
+
+.navyBlue {
+  background-color: #000080;
+  color: #ffffff;
+}
+
+.orchidPurple {
+  background-color: #8E44AD;
+  color: #ffffff;
+}
+
+.mustardYellow {
+  background-color: #FFDB58;
+  color: #ffffff;
+}
+
+.Taupe {
+  background-color: #808080;
+  color: #ffffff;
+}
+
+/* STYLES FONT SECTION */
+
+.fontsBlock {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 0%;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+}
+
+.fontsBlock > h3 {
+  text-decoration: underline;
+}
+
+.Montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nunitoSans {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.Poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.Montserrat, .nunitoSans, .Poppins {
+  flex: 1 0 40%;
+  margin-right: 10px;
+}
+
+.fontsBlock > div:last-child {
+  margin-right: 0;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.boldItalic {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* TEXT STYLES SECTION */
+
+.textStylesBlock {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* padding: 0%; */
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
