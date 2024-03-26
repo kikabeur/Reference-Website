@@ -1,6 +1,26 @@
 body {
     margin: 0 10%;
-    font-family: "Source Sans 3", sans-serif;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .header {
@@ -13,12 +33,6 @@ body {
     font-style: normal;
     color: #ffffff;
   }
-  
-.header p {
-  font-size: 20px;
-  font-weight: normal;
-  font-style: italic;
-}
 
 nav {
   display: flex;
